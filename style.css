@@ -1,0 +1,46 @@
+body{
+    background-color: brown;
+    text-align: center;
+}
+
+#game{
+    display: inline-block;
+    text-align: center;
+    background-color: blue;
+}
+
+.col{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: white;
+    margin: 5px;
+    display: inline-block;
+}
+
+.col.empty{
+    cursor: pointer;
+}
+
+.col.red{
+    background-color: red;
+}
+
+.col.yellow{
+    background-color: yellow;
+}
+
+.col.pred{
+    /* background-image: url("player1.png"); */
+    background-color: darkred;
+    /* width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 5px;
+    display: inline-block; */
+}
+
+.col.pyellow{
+    /* background-image: url("player2.jpeg"); */
+    background-color: rgba(255, 255, 0, 0.563);
+}
